@@ -2,16 +2,11 @@ import java.util.concurrent.Semaphore;
 
 public class Trabalho4 {
     public static void main(String[] args) {
-        int[][] matriz = { { 1, 0, 0 },
-                           { 1, 1, 0 },
+        int[][] matriz = { { 2, 0, 0 },
+                           { 1, 4, 0 },
                            { 1, 1, 1 } };
-//        int[][] matriz = { { 2, 0, 0, 0 },
-//                         { 3, 5, 0, 0 },
-//                         { 1,-6, 8, 0 },
-//                         { -1, 4,-3, 9} };
 
-        int b[] = { 1, 2, 3 };
-//        int b[] = { 4, 1, 48, 6};    // X = 2 -1 5 3
+        int b[] = { 2, -3, 1 };
         int x[] = {0, 0, 0};
 
         Semaphore semaforoS = new Semaphore(1);
